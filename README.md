@@ -1,31 +1,27 @@
-JavaScript Kitchen Sink
-The objective of this lab assignment is to practice using the fundamentals of JavaScript that were explored in lecture.
-
-Required
-Create a new project folder and copy this lab into a README.md file.
-Create an index.html file and an app.js file and link the two together with a script tag.
-Connect this project folder to a GitHub repository.
-And back to JavaScript: create a variable that contains your name as a value.
-Name the variable appropriately.
-Create a constant that contains the number of states in the U.S. and name it appropriately.
-Compute the result of adding 5 and 4 and store it in an appropriately named variable.
-Add comments to your code to document its functionality
-Write a function called sayHello that displays an alert that says Hello World!
-Call the sayHello function.
-Write a function called checkAge that takes two arguments: one for a name and one for an age. If the age is less than 21, display an alert that says, "Sorry " + name + ", you aren't old enough to view this page!"
-Call the checkAge function 4 times with the following people: Charles who is 21, Abby who is 27, James who is 18, and John who is 17.
-Hint: scroll down to "JavaScript String Operators" to see how to combine a variable with a string correctly.
-Create an array of your favorite vegetables and name it accordingly.
-* Use a loop to display each of your favorite vegetables to the developer console.
-Create an object named pet with two properties, name and breed. Use your own pets name and breed as the values! Or make one up if you don't own a pet.
-Display a console log displaying your pets name and breed after creating your pet object.
-Create an array of 5 objects that contain name and age properties. Make up names and ages for each object, making sure some are younger than 21 and some are 21+.
-* Use a loop to call the checkAge function for each object in the array, passing the object's name and age as arguments.
-Create a function called getLength that takes any word as an argument. The function should return the number of characters in the string.
-* Call the getLength function, passing 'Hello World' as the argument. Store the returned result of that function in a variable.
-* If the number is even, display 'The world is nice and even!' in the developer console. Otherwise if the number is odd, display 'The world is an odd place!' in the developer console.
-Submit to Github
-Commit your changes and push to GitHub.
-
-"# Javascript-Kitchen-Sink" 
-"# Javascript-Kitchen-Sink" 
+Info
+This lab consists of two parts
+In this iteration you will be doing most of the logic/coding
+You will also get started on the graphical appearance
+The code will display the results in the developer console
+The HTML is just a test placeholder for part 2 of this lab
+Objectives
+Create an array called friends. It will hold five of your friends' names.
+For every friend in the friend array, you will want to console.log the descending chorus of this brand-new, never before seen song 100 times. The lyric must include your friend's name, and must be grammatically correct when we get down to 1. See the example output for more information.
+In the HTML, set the page title to 99 Lines of Code In The File
+Put an h1 element in the html body that says My Singing Friends
+Put a div element in the html body with a class of friend.
+Inside the div element, put an h3 element that contains the word "Friend"
+Inside the div element, put 5 p elements.
+Inside the p elements, put "Test1", "Test2", ..., "Test5"
+Style the page
+Set a background color on the page.
+Change the text color of the h1.
+Set a background color for class friend.
+Target the h3 element inside the friend class div and make it uppercase using only CSS.
+You have stylistic freedom to make the page look good
+Hints
+You will need to use two loops to accomplish this task
+One loop is nested inside the other
+The outer loop is picking the friend. For each friend, the inner loop runs for every line of the song.
+Submission
+As usual, make sure you save and then commit and push your work to GitHub.
